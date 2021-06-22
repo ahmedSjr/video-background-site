@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Byond limits</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Sergio</h2>
+            <div class="toggle"></div>
+        </header>
+        <video src="vide.mp4" muted autoplay loop></video>
+      
+
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>No Limits</h2>
+            <h3>Dominate The World</h3>
+            <p>
+                The real test is not whether you avoid this failure, because you won't. It's whether you let it harden
+                or shame you into inaction, or whether you learn from it, whether you choose to persevere.
+            </p>
+            <a href="">Explore</a>
+        </div>
+        <ul class="social">
+            <li><a href=""><img src="icons/face.png" alt="" height="40" width="40"></a></li>
+            <li><a href=""><img src="icons/twit.png" alt="" height="40" width="40"></a></li>
+            <li><a href=""><img src="icons/inst.png" alt="" height="40" width="40"></a></li>
+            <li><a href=""><img src="icons/pint.png" alt="" height="40" width="40"></a></li>
+
+        </ul>
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+        const showCase = document.querySelector('.showcase');
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            showCase.classList.toggle('active');
+        })
+    </script>
+</body>
+</html>
